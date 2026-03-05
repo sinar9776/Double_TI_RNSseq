@@ -77,7 +77,7 @@ calc_volcano_limits <- function(files, q = 0.995) {
 #========================
 # Paths
 #========================
-setwd("/hpcnfs/data/BA/glucocorticoid_keep/sinaR/m.rezaei")
+setwd()
 base_dir <- getwd()
 data_dir <- file.path(base_dir, "data")
 res_dir  <- file.path(base_dir, "results/1_DEAnalysis")
